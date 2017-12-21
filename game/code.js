@@ -405,7 +405,7 @@ function animate() {
 	}
   //BOX PANEL
     position.textContent = "Player Position x:" + Math.floor(camera.position.x, 5) + "  y:" + Math.floor(camera.position.y, 5) + "  z:" + Math.floor(camera.position.z, 5);
-    ammoLeft.textContent = "Cube: " + AMMUNITION;
+    ammoLeft.textContent = "Bullet: " + AMMUNITION;
 
   if(keyboard[87] && PLAYABLE){ //W
     camera.position.x -= Math.sin(camera.rotation.y) * player.speed;
